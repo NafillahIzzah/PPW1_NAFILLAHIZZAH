@@ -1,0 +1,24 @@
+        /* Styling untuk elemen h1 */
+        h1 {
+            background-color: blueviolet; /* Memberikan warna latar belakang ungu */
+            padding: 10px; /* Memberikan jarak dalam elemen */
+            margin: 10px; /* Memberikan jarak luar elemen */
+            min-width: 400px; /* Lebar minimum elemen */
+            min-height: 10px; /* Tinggi minimum elemen */
+            text-align: center; /* Pusatkan teks */
+        }
+
+        /* Styling untuk elemen article */
+        article {
+            min-width: 400px; /* Lebar minimum artikel */
+            padding: 10px; /* Memberikan ruang di dalam artikel */
+            margin: 10px; /* Jarak antar artikel */
+            background: aqua; /* Warna latar belakang biru muda */
+        }
+
+        /* Styling untuk elemen section yang menggunakan Flexbox */
+        section {
+            display: flex; /* Mengaktifkan Flexbox,  untuk mengatur tata letak elemen dalam sebuah kontainer dengan lebih fleksibel dan responsif */
+            flex-wrap: wrap; /* Mengizinkan elemen child untuk berpindah ke baris baru jika tidak cukup ruang, dan tetap di barisnya jika masih terdapat space/ruang */
+        }
+    
